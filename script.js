@@ -1,8 +1,10 @@
 /*
+Elaborar a função (Ricardo)*/
+var input = require('prompt-sync')()
 
-Elaborar a função (Ricardo)
+var peso = document.getElementById('peso')
 
-- declarar variáveis (Lia)
+/*- declarar variáveis (Lia)
 
 - estrutura condicional (Felix)
     - imc < 19 : magreza
