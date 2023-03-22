@@ -2,6 +2,8 @@
 Elaborar a função (Ricardo)*/
 var input = require('prompt-sync')()
 
+var peso = document.getElementById('peso')
+
 /*- declarar variáveis (Lia)
 
 - estrutura condicional (Felix)
