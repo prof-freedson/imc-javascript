@@ -1,8 +1,8 @@
 /*
+Elaborar a função (Ricardo)*/
+var input = require('prompt-sync')()
 
-Elaborar a função (Ricardo)
-
-- declarar variáveis (Lia)
+/*- declarar variáveis (Lia)
 
 - estrutura condicional (Felix)
     - imc < 19 : magreza
