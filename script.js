@@ -18,6 +18,8 @@ var res = peso / (altura * altura)
 - exibir o resultado e a imagem correspondente
 
 */
+function calcIMC(peso,altura,imc,imagem,res){
+
 if (res < 19) {
     imc.innerHTML = `<h1>Resultado do IMC: ${res}</h1>`
     imagem.innerHTML = `<img src="magreza.png">`
@@ -27,7 +29,8 @@ if (res < 19) {
 } else if (res >= 24 && res < 29) {
     imc.innerHTML = `<h1>Resultado do IMC: ${res}</h1>`
     imagem.innerHTML = `<img src="sobrepeso.png">`
-} else(res >= 29) {
+} else{
     imc.innerHTML = `<h1>Resultado do IMC: ${res}</h1>`
     imagem.innerHTML = `<img src="obesidade.png">`
+}
 }
