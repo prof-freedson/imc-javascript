@@ -7,6 +7,8 @@ Estilizar o resultado
 Estilizar o link da academia (Cleiton)
 
 */
+
+
 a {
     color: blue; 
     text-decoration: none; 
@@ -25,3 +27,4 @@ body {
     line-height: 1.5;
     color: #333;
  }
+
