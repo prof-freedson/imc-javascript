@@ -27,6 +27,32 @@ a {
     color: red; 
   }
 
+  body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url("academia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+body::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
 body {
     /* background: url("https://cglimpeza.com.br/wp-content/uploads/2019/02/2019-03-16-limpeza-de-academia-800x415.jpg"); */
     background-color: aquamarine;
