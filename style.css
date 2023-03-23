@@ -7,3 +7,26 @@ Estilizar o resultado
 Estilizar o link da academia (Cleiton)
 
 */
+<<<<<<< HEAD
+
+
+
+a {
+    color: blue; 
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+
+  a:hover {
+    color: red; 
+  }
+=======
+body {
+    background: url("https://cglimpeza.com.br/wp-content/uploads/2019/02/2019-03-16-limpeza-de-academia-800x415.jpg");
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+ }
+>>>>>>> eaacc40f88fac2c73c4315ff14ee0dc1278f22bb
