@@ -1,11 +1,7 @@
 /*
 Elaborar a função (Ricardo)*/
 
-var peso = document.getElementById('peso').value
-var altura = document.getElementById('altura').value
-var imc = document.getElementById('imc')
-var imagem = document.getElementById('imagem')
-var res = peso / (altura * altura)
+
 
 /*- declarar variáveis (Lia)
 
@@ -18,19 +14,24 @@ var res = peso / (altura * altura)
 - exibir o resultado e a imagem correspondente
 
 */
-function calcIMC(peso,altura,imc,imagem,res){
+function calcIMC() {
+    var peso = document.getElementById('peso').value
+    var altura = document.getElementById('altura').value
+    var imc = document.getElementById('imc')
+    var imagem = document.getElementById('imagem')
+    var res = peso / (altura * altura)
 
-if (res < 19) {
-    imc.innerHTML = `<h1>Resultado do IMC: ${res}</h1>`
-    imagem.innerHTML = `<img src="magreza.png">`
-} else if (res >= 19 && res < 24) {
-    imc.innerHTML = `<h1>Resultado do IMC: ${res}</h1>`
-    imagem.innerHTML = `<img src="normal.png">`
-} else if (res >= 24 && res < 29) {
-    imc.innerHTML = `<h1>Resultado do IMC: ${res}</h1>`
-    imagem.innerHTML = `<img src="sobrepeso.png">`
-} else{
-    imc.innerHTML = `<h1>Resultado do IMC: ${res}</h1>`
-    imagem.innerHTML = `<img src="obesidade.png">`
-}
+    if (res < 19) {
+        imc.innerHTML = `<h1>Resultado do IMC: ${res}</h1>`
+        imagem.innerHTML = `<img src="magreza.png">`
+    } else if (res >= 19 && res < 24) {
+        imc.innerHTML = `<h1>Resultado do IMC: ${res}</h1>`
+        imagem.innerHTML = `<img src="normal.png">`
+    } else if (res >= 24 && res < 29) {
+        imc.innerHTML = `<h1>Resultado do IMC: ${res}</h1>`
+        imagem.innerHTML = `<img src="sobrepeso.png">`
+    } else {
+        imc.innerHTML = `<h1>Resultado do IMC: ${res}</h1>`
+        imagem.innerHTML = `<img src="obesidade.png">`
+    }
 }
