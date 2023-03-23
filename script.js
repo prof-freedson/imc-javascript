@@ -1,6 +1,11 @@
 /*
 Elaborar a função (Ricardo)*/
-var input = require('prompt-sync')()
+
+var peso = document.getElementById('peso').value
+var altura = document.getElementById('altura').value
+var imc = document.getElementById('imc')
+var imagem = document.getElementById('imagem')
+var res = peso/(altura*altura)
 
 /*- declarar variáveis (Lia)
 
@@ -13,3 +18,7 @@ var input = require('prompt-sync')()
 - exibir o resultado e a imagem correspondente
 
 */
+if(res < 19){
+    imc.innerHTML = `<h1>Resultado do IMC: ${res}</h1>`
+    imagem.innerHTML = `<img src="">`
+}
