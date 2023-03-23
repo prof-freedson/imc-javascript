@@ -7,6 +7,7 @@ Estilizar o resultado
 Estilizar o link da academia (Cleiton)
 
 */
+<<<<<<< HEAD
 
 h1{
   color: rgb(221, 255, 0);
@@ -15,6 +16,8 @@ h1{
   font-size: 35px
 }
 
+=======
+>>>>>>> 537bb38f687756d9f4287227b0833eb5266f410c
 
 
 a {
@@ -35,3 +38,7 @@ body {
     line-height: 1.5;
     color: #333;
  }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 537bb38f687756d9f4287227b0833eb5266f410c
