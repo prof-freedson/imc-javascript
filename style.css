@@ -7,3 +7,15 @@ Estilizar o resultado
 Estilizar o link da academia (Cleiton)
 
 */
+
+
+
+a {
+    color: blue; 
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+
+  a:hover {
+    color: red; 
+  }
