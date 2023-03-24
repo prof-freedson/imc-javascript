@@ -61,3 +61,16 @@ body {
     line-height: 1.5;
     color: #333;
  }
+
+ img{
+  width: 200px;
+  height: 300px;
+ }
+
+ #dica{
+  width: 200px;
+ }
+
+ #dica h2{
+  text-align: center;
+ }
