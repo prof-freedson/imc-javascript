@@ -7,19 +7,13 @@ Estilizar o resultado
 Estilizar o link da academia (Cleiton)
 
 */
-<<<<<<< HEAD
 
 h1{
-    color: rgb(221, 255, 0);
-    font-family: arial;
-    font-variant: 
-    font-size: 35px
-    
-
-
+  color: rgb(221, 255, 0);
+  font-family: arial;
+  font-variant: small-caps; 
+  font-size: 35px
 }
-=======
-<<<<<<< HEAD
 
 
 
@@ -32,14 +26,38 @@ a {
   a:hover {
     color: red; 
   }
-=======
+
+  body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url("academia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+body::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
 body {
-    background: url("https://cglimpeza.com.br/wp-content/uploads/2019/02/2019-03-16-limpeza-de-academia-800x415.jpg");
-    background-color: #f2f2f2;
+    /* background: url("https://cglimpeza.com.br/wp-content/uploads/2019/02/2019-03-16-limpeza-de-academia-800x415.jpg"); */
+    background-color: aquamarine;
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #333;
  }
->>>>>>> eaacc40f88fac2c73c4315ff14ee0dc1278f22bb
->>>>>>> 5b04b909da7b23d791087c4af79d34472dbe266f

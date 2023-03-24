@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -12,14 +14,28 @@
     <h1>Calculadora IMC</h1>
 
 
+    <!-- Adicionar o seguinte texto:
+        Calcule o seu IMC e saiba se você precisa
+    ganhar ou perder peso
+    
+    
+    (Raymara) -->
+    <p> Calcule o seu IMC e saiba se você precisa
+        ganhar ou perder peso </p> 
+
+
+    
+
     <!-- Adicionar input do peso (Henry)-->
+    <label for="">Digite seu peso em quilos</label><br>
+    <input type="text" id="peso"><br><br>
 
     <!-- Adicionar input da altura (Gizelli)-->
     <label for="">Digite a sua altura em metros</label><br>
     <input type="text" id="altura"><br><br>
 
     <!-- Adicionar botão para calcular (Geovanne)-->
-    <button>Calcular</button>
+    <button onclick="calcIMC()">Calcular</button>
     <!-- Adicionar o resultado -->
     <div id="imc"></div>
     <div id="imagem"></div>
@@ -30,20 +46,21 @@
     <!-- Adicionar texto sobre o IMC (Victor) -->
 
     <ul> <h2 style="color: yellow;">Perguntas frequentes</h2> 
- <li><p>Quanto é um IMC considerado bom?<br>
+    <li><p style="color: white;">Quanto é um IMC considerado bom?<br>
         Um IMC considerado normal fica entre 18,5 e 24,9. Esse número é calculado pela divisão do peso (em quilos) pelo quadrado da altura (em metros).<br>
         Contudo, há exceções, então certifique-se desses valores com seu médico.</p></li>
     
-        <li> <p>Como funciona o IMC para crianças e adolescentes?<br>
+        <li> <p style="color: white;">Como funciona o IMC para crianças e adolescentes?<br>
         Para esses grupos, há valores e tabelas específicas. O acompanhamento desses números deve ser feito com o pediatra ou hebiatra.</p></li>
     
-        <li> <p>A tabela do IMC vale para todas as faixas etárias?<br>
+        <li> <p style="color: white;">A tabela do IMC vale para todas as faixas etárias?<br>
         Essa tabela do artigo, que tem o IMC ideal entre 18,5 e 24,9, vale para a maioria da população adulta, excluindo atletas, grávidas e outros.<br>
         Para crianças, adolescentes e idosos, existem tabelas específicas, de acordo com as necessidades desses grupos.</p></li></ul> 
     =======
     <br><br><br>
 
     <a class="link" href="https://www.youtube.com/watch?v=QnbYtcd7JCY" target="_blank">TREINO COMPLETO PARA INICIANTES.</a>
+
 
 
 </body>
